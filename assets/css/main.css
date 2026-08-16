@@ -1715,7 +1715,16 @@ input, select, textarea {
 
         .button.large.phone {
             background-color: #f7f7f7;
-            color: #444
+            color: #444;
+            cursor: pointer;
+        }
+
+        .button.large.phone > a {
+            text-decoration: none;
+        }
+
+        .button.large.phone:hover {
+            background-color: #ccc;
         }
 
 /* List */
